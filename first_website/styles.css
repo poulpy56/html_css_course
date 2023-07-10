@@ -1,0 +1,23 @@
+.thumbnail0 {
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 5px;
+  margin: 50px;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.thumbnail0:hover {
+  height: 300px;
+  width:450px;
+}
+
+.thumbnail0:active {
+  opacity: 0.5;
+}
+
+.searchBar {
+  margin: 20px;
+}
