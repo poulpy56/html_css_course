@@ -4,14 +4,13 @@
   object-fit: contain;
   object-position: center;
   border-radius: 5px;
-  margin: 50px;
   transition: 0.05s;
   cursor: pointer;
 }
 
 .thumbnail0:hover {
-  height: 300px;
-  width:450px;
+  height: 210px;
+  width:320px;
 }
 
 .thumbnail0:active {
@@ -19,5 +18,17 @@
 }
 
 .searchBar {
+  margin: 20px;
+  cursor: pointer;
+  display: block;
+  width: 400px;
+}
+
+p {
+  font-family: Roboto;
+}
+
+.videoblock {
+  display: inline-block;
   margin: 20px;
 }
