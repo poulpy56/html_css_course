@@ -6,15 +6,42 @@
   border-radius: 5px;
   transition: 0.05s;
   cursor: pointer;
+  margin: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.thumbnail1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  transition: 0.05s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.thumbnail1:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail1:active {
+  opacity: 0.8;
+}
+
+div {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .thumbnail0:hover {
   height: 210px;
-  width:320px;
+  width: 320px;
+  margin: 0px;
+  border-radius: 8px;
 }
 
 .thumbnail0:active {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .searchBar {
@@ -28,7 +55,26 @@ p {
   font-family: Roboto;
 }
 
+.videoDesc {
+  width: 220px;
+  height: 40px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: grey;
+}
+
+.videoName {
+  width: 220px;
+  height: 40px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
 .videoblock {
   display: inline-block;
   margin: 20px;
+  width: 300px;
+  vertical-align: top;
 }
