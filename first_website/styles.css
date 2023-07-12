@@ -1,14 +1,11 @@
 .thumbnail0 {
-  height: 200px;
-  width: 300px;
-  object-fit: contain;
-  object-position: center;
-  border-radius: 5px;
-  transition: 0.05s;
+  width: 100%;
   cursor: pointer;
-  margin: 10px;
-  margin-left: 0px;
-  margin-top: 0px;
+  transition: 0.05s;
+}
+
+body {
+  margin: 0px;
 }
 
 .thumbnail1 {
@@ -28,53 +25,159 @@
   opacity: 0.8;
 }
 
+.thumbnail0:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
 div {
   display: inline-block;
   vertical-align: top;
 }
 
-.thumbnail0:hover {
-  height: 210px;
-  width: 320px;
-  margin: 0px;
-  border-radius: 8px;
-}
 
 .thumbnail0:active {
   opacity: 0.8;
 }
 
-.searchBar {
-  margin: 20px;
-  cursor: pointer;
-  display: block;
-  width: 400px;
-}
+
 
 p {
   font-family: Roboto;
 }
 
 .videoDesc {
-  width: 220px;
-  height: 40px;
-  margin-left: 20px;
-  margin-bottom: 0px;
-  margin-top: 10px;
+  width: 100%;
   color: grey;
 }
 
 .videoName {
-  width: 220px;
-  height: 40px;
-  margin-left: 20px;
-  margin-bottom: 0px;
-  margin-top: 10px;
+  width: 100%;
 }
 
 .videoblock {
-  display: inline-block;
-  margin: 20px;
-  width: 300px;
+  width: 100%;
   vertical-align: top;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.descgrid {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftSec {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.centerSec {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.rightSec {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.searchBar {
+  flex: 1;
+  height: 23px;
+  padding-left: 15px;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.1);
+  width: 0px;
+}
+
+.ham {
+  height: 20px;
+  margin: 10px;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.ytloo {
+  height: 20px;
+  margin: 10px;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.pic {
+  height: 20px;
+  margin: 10px;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.pic2 {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  border-radius: 15px;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.pic2:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pic2:active {
+  opacity: 0.8;
+}
+
+.sb {
+  height: 27px;
+  width: 35px;
+  margin-left: -1px;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.vb {
+  height: 27px;
+  width: 27px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pic3 {
+  height: 16px;
+  margin: 0px;
+  transition: 0.05s;
 }
