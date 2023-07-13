@@ -76,6 +76,17 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  box-shadow: 10px 0px 7px rgb(224, 224, 224);
 }
 
 .leftSec {
@@ -180,4 +191,17 @@ p {
   height: 16px;
   margin: 0px;
   transition: 0.05s;
+}
+
+.sideBar {
+  position: fixed;
+  top: 55px;
+  left: 0px;
+  bottom: 0px;
+  width: 55px;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
